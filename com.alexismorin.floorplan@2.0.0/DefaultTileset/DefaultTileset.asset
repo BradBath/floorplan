@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8441b0125f23fb644b2d1fbd1835ee18, type: 3}
+  m_Name: DefaultTileset
+  m_EditorClassIdentifier: 
+  floorTiles:
+  - {fileID: 254791854324832132, guid: 381ed00a800c7ae438567827f63d59ab, type: 3}
+  wallTiles:
+  - {fileID: 521578371659750298, guid: b15f933ae2fe0b545a5adfb036e3a417, type: 3}
+  archTiles:
+  - {fileID: 764512528839231858, guid: 934ba286f9a61cf4c8abe65a39b8202c, type: 3}
+  - {fileID: 2760337413371881268, guid: 7779d0ef6488ede469edbd327dca5fe4, type: 3}
+  - {fileID: 2760337413371881268, guid: 97aa43477860ad04fa4d579a5633e9a2, type: 3}
+  - {fileID: 2760337413371881268, guid: a4fd8598690fb414694e3b5f97fd42ac, type: 3}
+  windowTiles:
+  - {fileID: 2760337413371881268, guid: 2a4fccde007ea954484dfa6e6e7a6a70, type: 3}
+  - {fileID: 2760337413371881268, guid: 2d6fde89eebde394db4dac2e1e2bc81f, type: 3}
+  - {fileID: 2760337413371881268, guid: bdbaa7cf00eee39429b788a3c83408eb, type: 3}
+  pillarTiles:
+  - {fileID: 6653626983322759584, guid: b4e0bf2c4458c7d4781665e683e55262, type: 3}

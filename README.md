@@ -14,10 +14,10 @@ With this package, you can then turn these simple prefabs into a small tileset d
 ![tileset](images/tileset.png)
 
 ### Controls / Basic Workflow
-- For the default tileset configuration, make sure that your snapping is set to 2m / 3m / 2m - this is the size of one floorplan tile.
+- For the default tileset configuration, make sure that your vertical snapping is  3m - this is the height of one floorplan tile.
 - Use the *Tools/Add Floorplan Handle* menu item to add a floorplan handle to your scene. The floorplan handle is the item you will drag around to create geometry
 - Toggle own a spawn option; walls, pillars, or floors. Pillars are automatically spawned on corners - pillars are automatically spawned on wall corners already, but toggling the option on might be good for attics or basements.
-- Press and keep left-ctrl down to enable snapping as you normally would, then press the spacebar (the red node will turn green) to toggle the tool on or off. With the tool active, you can now simply move the handle across the scene to spawn items.
+- Press the spacebar (the red node will turn green) to toggle the tool on or off. With the tool active, you can now simply move the handle across the scene to spawn items.
 - Once you're done spawning, just press the spacebar again to disable the handle. If you're missing a few tiles or pillars, you can move the handle where needed and manually spawn some with the *Spawn Pillar* or *Spawn Floor* button.
 - If you click on any mesh spawned by the handle, you can turn it into a door arch or a windowed wall.
 
@@ -27,16 +27,22 @@ The meshes aren't logged anywhere - I will revisit once I use this tool in a rea
 You can have multiple custom tilesets spawning different looking buildings in the same project - look into the DefaultTilekit folder and copy to your heart's contents.
 
 ### Install process
-This is a plugin that makes use of Unity's new *Package Manager* feature. Just drop the *com.alexismorin.floorplan* folder into your *packages* folder (found at the same level as your Assets folder) and it should work out-of-the-box. If you're using an older version of Unity, navigate inside the *com.alexismorin.floorplan* folder and then just drag everything you find there anywhere in your project hierarchy.
+This is a plugin that makes use of Unity's new *Package Manager* feature. Just drop the *com.alexismorin.floorplan* folder into your *packages* folder (found at the same level as your Assets folder) and it should work out-of-the-box.
 
 ![packman](images/packman.png)
 
+### Compatibility
+- If you import this package in Unity 2018.3 or older, you might have to adjust the default tileset prefab for walls and pillars as the downgrade might mess with them a bit.
+
+### Changelog:
+- April 24: You  don't need to hold down the control key to snap anymore, it'll snap things automatically for you.
+- April 24: Windows & Arches are now properly instanced as prefabs as well.
+
 ### TODO
-- Make it snap without having to hold down the control key 
 - More basic tile types (e.g stairs or bannisters)
 - Less messy floor placement solution
 - Stairs and roofs
 - Better control on doors
 - More pleasant UX
 
-This was, as is it par with all my packages, created in around 5-6 hours on my couch. If it doesn't break, enjoy!
+This was, as is it par with all my packages, created in around 5-6 hours on my couch. If it doesn't break for you, enjoy!
