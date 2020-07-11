@@ -12,3 +12,10 @@ Changes:
 ## Demonstration
 
 [![3 minute demonstration of my changes](https://img.youtube.com/vi/IMBXjzlqeQA/0.jpg)](https://www.youtube.com/watch?v=IMBXjzlqeQA)
+
+##Current issues:
+   
+   * Quickly drawing may cause gaps to appear
+   * Undo functionality barely works (will only work for placed objects, will not work if you accidentally delete half of your level with an accidental drag-click :) )
+   * Does not (currently) support tiles with multiple material slots.
+   * May break randomly. I'm not particularly good with editor scripting and the code is very sloppy and ugly.
