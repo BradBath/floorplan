@@ -1,3 +1,11 @@
+# THIS REPOSITORY HAS BEEN MOVED TO A DEDICATED ONE, GO HERE FOR FUTURE UPDATES: https://github.com/BradBath/Floorplan-2.0
+
+# THIS REPOSITORY HAS BEEN MOVED TO A DEDICATED ONE, GO HERE FOR FUTURE UPDATES: https://github.com/BradBath/Floorplan-2.0
+
+# THIS REPOSITORY HAS BEEN MOVED TO A DEDICATED ONE, GO HERE FOR FUTURE UPDATES: https://github.com/BradBath/Floorplan-2.0
+
+# THIS REPOSITORY HAS BEEN MOVED TO A DEDICATED ONE, GO HERE FOR FUTURE UPDATES: https://github.com/BradBath/Floorplan-2.0
+
 # floorplan 2.0.0
 
 I have taken the liberty of modifying floorplan and completing most of the ToDos that Alexis Morin had put in the Readme in original repository.
